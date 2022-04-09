@@ -1,0 +1,35 @@
+.top-bar-bg-color{
+    background-color: #020e28;
+}
+.cus-bg{
+    background-color: #151D32;
+}
+.my-btn{
+    background-image: linear-gradient(to right, #fdbe00 , #007dff);
+}
+.footer-bar-bg-color{
+    background-color: #000818;
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 28px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid #fdbe00;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #fdbe00;
+    color: #fdbe00;
+  }

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <title>Task 1</title>
+</head>
+
+    <style>
+        .mystyle {
+            display: block;
+        }
+    </style>
+    <script>
+        function myFunction() {
+        var element = document.getElementById("myDIV");
+        element.classList.toggle("mystyle");
+        }
+    </script>
+
+<body>
+    <div class="grid grid-flow-row justify-items-center lg:grid-flow-col lg:place-content-center mx-auto p-4 top-bar-bg-color lg:pl-32 xl:pl-0">
+        <div class="flex text-white align-items-center">
+            <img src="images/telephone-call.png" class="h-4 mt-2 px-4 w-auto">
+            <p class="text-gray-300 md:text-lg">786-842-009</p>
+            <span class="ml-4">|</span>
+        </div>
+        <div class="flex text-white align-items-center">
+            <img src="images/email.png" class="h-4 mt-2 px-4 w-auto">
+            <p class="text-gray-300 md:text-lg">sales@anserequiepment.com</p>
+        </div>
+    </div>
+    <div class="container mx-auto">
+        <nav class="flex md:flex-col lg:justify-between lg:flex-row xl:flex-row items-center text-black font-bold px-3 py-3 lg:px-30 xl:px-48 lg:py-0  flex-nowrap container mx-auto">
+            <img class="h-auto w-auto lg:pt-2" src="images/logo.png" alt="">
+
+            <button onclick="myFunction()" class="nav-toggler p-2 focus:outline-none focus:bg-gray-700 text-black font-bold inline-flex  rounded transition duration-500 hover:text-white hover:font-bold md:hidden ml-auto" data-target="#navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                  </svg>
+            </button>
+
+            <div id="myDIV" class="  md:grid md:grid-cols-1 md:grid-rows-2 lg:flex lg:px-10 xl:pl-32 hidden md:items-center top-nav w-full md:w-auto text-md">
+                <div class="flex md:flex-row  mt-2 md:inline-flex lg:flex-row md:ml-auto md:items-center topnav">
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded text-yellow-500 border-b-4 border-amber-400 active px-5 ">
+                        <span>HOME</span>
+                    </a>
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded px-5">
+                        <span>ABOUT</span>
+                    </a>
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded px-5">
+                        <span>BRANDS</span>
+                    </a>
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded px-5">
+                        <span>PARTS</span>
+                    </a>
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded px-5">
+                        <span>EUIPMENTS</span>
+                    </a>
+                    <a href="#" class="md:inline-flex md:w-auto py-2 rounded px-5">
+                        <span>CONTACT</span>
+                    </a>
+                </div>
+                <div class="p-4 md:flex md:justify-center lg:flex-none">
+                    <button class="bg-gray-600 rounded-full w-auto mt-2 px-2 py-3 text-white flex justify-center my-btn font-bold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                      </svg>Need Estimate?</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div style="background-image: url(images/Banner-BG.jpg)">
+        <div class="grid grid-flow-row grid-col-1 grid-rows-1 bg-cover lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 gap-2 items-center py-8 lg:px-48 md:px-24 px-10 container mx-auto">
+            <div class="">
+                <p class="text-xl md:text-3xl lg:text-4xl xl:text-5xl text-black font-bold text-center lg:text-left"><span class="text-yellow-500 ">GROW</span><span class="text-white px-2  ">YOUR <br> BUSINESS</span> 
+                <span class="text-blue-500 ">WITH <br>ANNCAR</span></p>
+                <p class="text-xs md:text-md xl:text-xl py-2 font-semibold text-white text-center lg:text-left">HIGH QUALITY HEAVEY QYUIPMENT <br> SPARE PARTS SUPPLIER</p>
+            </div>
+            <div class=" grid justify-items-stretch">
+                <img class="w-auto h-auto bg-cover" src="images/Banner-image.png" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-auto ml-3 md:ml-7 text-white justify-self-center mt-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                  </svg>
+            </div>
+        </div>
+    </div>
+    <div class="grid md:grid-cols-1 md:grid-rows-3 xl:grid-cols-3 lg:grid-rows-1 items-center md:text-center lg:py-24 lg:px-32 container mx-auto px-10 py-12">
+        <div class="px-8 lg:px-16 shadow-md">
+            <div class="flex justify-start md:justify-center py-4 items-center">
+                <img src="images/Fast-Response.png" class="w-auto h-14 md:h-16">
+                <h1 class="text-xl md:text-2xl xl:text-3xl px-8 font-bold text-left">Fast <br>Response</h1>
+            </div>
+            <div class="text-sm md:text-md pb-5">
+                <p class="font-medium text-neutral-700 lg:text-left">For most part requests, we answer within 1hr (standard quote Response time less then 24 hrs)Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+        </div>
+        
+        <div class="px-8 lg:px-16 shadow-md">
+            <div class="flex justify-start md:justify-center py-4 items-center">
+                <img src="images/Worldwide Shipping.png" class="w-auto h-14 md:h-16">
+                <h1 class="text-xl md:text-2xl xl:text-3xl px-8 font-bold text-left">Worldwide <br>Shipping</h1>
+            </div>
+            <div class="text-sm md:text-md pb-5">
+                <p class="font-medium text-neutral-700 lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            </div>
+        </div>
+
+        <div class="px-8 lg:px-16 shadow-md">
+            <div class="flex justify-start md:justify-center py-4 items-center">
+                <img src="images/Large Availability.png" class="w-auto h-14 md:h-20">
+                <h1 class="text-xl md:text-2xl xl:text-3xl px-8 font-bold text-left">Large <br>Availability</h1>
+            </div>
+            <div class="text-sm md:text-md pb-4">
+                <p class="font-medium text-neutral-700 lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever. </p>
+            </div>
+
+        </div>    
+    </div>
+    <div class="grid px-8 md:px-20 lg:px-0 md:grid-cols-1 md:grid-rows-1 lg:grid-cols-8 gap-2 lg:gap-8 xl:gap-4 lg:grid-rows-1 align-items-center  pb-12 place-items-center mx-auto container">
+        <div class="lg:col-start-2 lg:col-span-3">
+            <div class="py-4">
+                <img src="images/image-2.png">
+            </div>
+        </div>
+
+        <div class="lg:col-span-3 text-left md:text-center lg:text-left">
+            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold"><span class="text-yellow-500">WHY</span> <span class="text-blue-900">ANNCER<span></span></span></h1>
+                <div class="flex md:justify-center lg:justify-start xl:justify-start">
+                    <p class="border-b-2 border-blue-700 w-1/5 md:w-1/4 lg:w-1/3 xl:ml-2 pb-3"></p>
+                </div>
+                <p class="md:text-md text-sm xl:lg  pt-2 font-medium text-neutral-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+   
+    </div>
+    <div style="background-image: url(images/BG.jpg)">
+        <div class="grid lg:grid-cols-8 grid-cols-1 grid-rows-6 grid-flow-row md:grid-flow-row md:text-center gap-2 lg:grid-rows-2 md:items-center lg:items-start bg-cover mb-12 container mx-auto" >
+            <div class="lg:col-start-2 lg:col-span-3 md:grid md:justify-items-center lg:grid lg:justify-items-start row-span-3 p-8">
+                <img src="images/ENGINE-PARTS.png" class="p-2">
+                <h1 class="text-xl md:text-2xl lg:text-3xl font-bold"><span class="text-white">ENGINE</span> <span class="text-yellow-500">PARTS<span></span></span></h1>
+                <p class="border-b-2 border-blue-400 w-24 pb-2"></p>
+                <p class="md:text-md text-sm pt-2 text-white font-medium lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+    
+            <div class="lg:col-span-3 row-span-3 md:grid md:justify-items-center lg:grid lg:justify-items-start p-8">
+                    <img src="images/GROUND-ENGAGING-TOOLS.png" class="p-2">
+                    <h1 class="text-xl md:text-2xl lg:text-3xl font-bold text-left"><span class="text-white">GROUND ENGAGGING</span> <span class="text-yellow-500">TOOLS<span></span></span></h1>
+                    <p class="border-b-2 border-blue-400 w-24 pb-2"></p>
+                    <p class="md:text-md text-sm pt-2 text-white font-medium lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="lg:col-start-2 lg:col-span-3 row-span-2 md:grid md:justify-items-center lg:grid lg:justify-items-start p-8">
+                <img src="images/UNDERCARRIAGE-PARTS.png" class="p-2">
+                <h1 class="text-xl md:text-2xl lg:text-3xl font-bold text-left"><span class="text-white">UNDERCARRIAGE</span> <span class="text-yellow-500">PARTS<span></span></span></h1>
+                <p class="border-b-2 border-blue-400 w-24 pb-2"></p>
+                <p class="md:text-md text-sm pt-2 text-white font-medium lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.hen an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="lg:col-span-3 row-span-2 lg:p-10 md:grid md:justify-items-center lg:grid lg:justify-items-start p-8">
+                    <img src="images/MISC-PARTS.png" class="p-2">
+                    <h1 class="text-xl md:text-2xl lg:text-3xl font-bold"><span class="text-white">MISC</span> <span class="text-yellow-500">PARTS<span></span></span></h1>
+                    <p class="border-b-2 border-blue-400 w-24 pb-2"></p>
+                    <p class="md:text-md text-sm pt-2 text-white font-medium lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.hen an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="grid xl:grid-cols-6 gap-2 lg:grid-rows-1 md:grid-cols-1 md:grid-rows-2 items-center mb-14 md:text-center lg:text-left mx-auto container">
+        <div class="lg:col-start-2 lg:col-span-2 py-2 px-7 xl:px-0">
+            <h1 class="text-xl md:text-2xl lg:text-3xl font-bold md:text-center xl:text-left"><span class="text-blue-900">WE SELL THE</span> <span class="text-yellow-500">TOP BRANDS<span></span></span></h1>
+            <div class="flex md:justify-center xl:justify-start">
+                <p class="border-b-2 border-blue-700 w-1/3 md:w-1/4 xl:ml-2 pb-3"></p>
+            </div>
+            <div class="grid grid-cols-1 gap-2 grid-rows-3 lg:grid-cols-1 lg:grid-rows-3 xl:grid-cols-2 xl:grid-rows-2 items-center lg:px-32 xl:px-0 lg:text-center xl:text-left">
+                <div class="py-3">
+                    <h1 class="text-md md:text-xl lg:text-2xl font-bold text-black py-2 ">KOMATSU®</h1>
+                    <p class="md:text-md text-sm pt-2 font-medium text-neutral-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="py-3">
+                    <h1 class="text-md md:text-xl lg:text-2xl font-bold text-black py-2 ">JCB®</h1>
+                    <p class="md:text-md text-sm pt-2 font-medium text-neutral-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="py-3">
+                    <h1 class="text-md md:text-xl lg:text-2xl font-bold text-black py-2 ">CAT®</h1>
+                    <p class="md:text-md text-sm pt-2 font-medium text-neutral-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-3 p-4 lg:ml-40 xl:ml-0">
+                <img src="images/We-sell-the-top-brands--image.png" class="p-2">
+        </div>
+    </div> 
+
+    <div style="background-image: url(images/BG-image.jpg)">
+        <div class="items-center flex justify-center lg:px-20 bg-cover container mx-auto " >
+            <div class="p-2 md:p-4">
+                <img src="images/We-have-the-part-you-need-image.jpg" class="p-2">
+            </div>
+            <div class="absolute lg:right-10 xl:right-22 2xl:right-72 2xl:w-1/3 lg:w-1/2 md:w-1/2 w-1/2">
+                <div class="cus-bg lg:p-6 lg:py-8 md:p-8 xl:py-10 p-3">
+                    <h2 class="xl:text-3xl md:text-xl lg:text-2xl text-sm font-bold text-blue-500 tracking-wide">WE HAVE THE PART <span class="text-yellow-500">YOU NEED</span></h2>
+                    <p class="text-xs lg:text-sm xl:text-lg pt-2 text-white mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="text-white px-1 py-1 xl:text-lg lg:text-sm text-xs text-center bg-blue-600 font-semibold lg:w-1/1 w-1/2 md:w-1/3 xl:w-1/4  font-senibold rounded-full">REQUEST PART</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="cus-bg">
+        <div class="items-center px-6 md:px-20 lg:px-10 xl:px-20 p-6 container mx-auto ">
+            <div class="lg:p-6 flex justify-center">
+                <img src="images/logo.png" class="p-2">
+            </div>
+            <div class="grid lg:grid-cols-2 xl:grid-cols-4 gap-5 xl:gap-8 lg:grid-rows-1 md:grid-cols-1 md:grid-rows-4 md:text-center lg:text-left lg:pl-32">
+                <div class="md:py-6  ">
+                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white py-2 mb-2">Grow With Anncer</h1>
+                    <p class="md:text-md text-sm pt-2 font-medium text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+                    <div class="flex py-4 md:justify-center lg:justify-start">
+                        <img src="images/FB-icon.png">
+                        <img src="images/Instagram-icon.png" class="px-2">
+                        <img src="images/linkedin-icon.png">
+                        <img src="images/Twitter-icon.png" class="px-2">
+                    </div>
+                </div>
+                <div class="lg:py-6 ">
+                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white py-2 mb-2">Get in touch</h1>
+                    <div class="flex py-1 items-center md:justify-center lg:justify-start">
+                        <img src="images/telephone-icon.png" class="w-auto h-4">
+                        <p class="md:text-md text-sm pt-2 font-medium text-white px-2">+1763889-0-009</p>
+                    </div>
+                    <div class="flex py-1 items-center md:justify-center lg:justify-start">
+                        <img src="images/email-icon.png" class="w-auto h-4">
+                        <p class="md:text-md text-sm pt-2 font-medium text-white px-2">sales@anncereuipement.com</p>
+                    </div>
+                    <div class="flex py-1 items-center md:justify-center lg:justify-start">
+                        <img src="images/location-icon.png" class="w-auto h-4">
+                        <p class="md:text-md text-sm pt-2 font-medium text-white px-2">7255, NW 69TH Street, Bay #9, Miami, FL 33166</p>
+                    </div>
+                </div>
+                <div class="lg:py-6 md:pb-5 ">
+                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white py-2 mb-2">Useful Links</h1>
+                    <div>
+                        <p class="md:text-md text-sm pt-2 font-medium text-white">Engine Parts</p>
+                        <p class="md:text-md text-sm pt-2 font-medium text-white">Ground Enginning Tools</p>
+                        <p class="md:text-md text-sm pt-2 font-medium text-white">Undecarriage-Parts</p>
+                        <p class="md:text-md text-sm pt-2 font-medium text-white">Micellaneous Part</p>
+                    </div>
+                </div>
+                <div class="lg:py-6 ">
+                    <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white py-2 mb-2">Get Free Estimate</h1>
+                    <div>
+                        <p class="md:text-md text-sm pt-2 font-medium text-white">Fill out our form bellow and re-quest a free quote.</p>
+                        <div class="py-4 md:flex md:justify-center lg:justify-start">
+                            <button class="bg-gray-600 rounded-full w-auto mt-2 px-4 py-1 text-white flex justify-center my-btn font-bold">Request A Quote</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mx-auto py-3 footer-bar-bg-color">
+        <div class="text-sm text-gray-300 align-items-center">
+            <p>copyright @ctradella international 2020</p>
+        </div>
+    </div>
+</body>
+</html>
